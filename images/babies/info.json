@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 204,
+    "height" : 140
+  }, {
+    "width" : 407,
+    "height" : 279
+  }, {
+    "width" : 814,
+    "height" : 557
+  }, {
+    "width" : 1628,
+    "height" : 1114
+  }, {
+    "width" : 3255,
+    "height" : 2228
+  }, {
+    "width" : 6510,
+    "height" : 4456
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 6510,
+  "@id" : "https://KarenDykes.github.io/DHSI2024/images/babies",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 4456
+}
