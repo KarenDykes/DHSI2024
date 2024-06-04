@@ -1,0 +1,146 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://KarenDykes.github.io/DHSI2024/manifests/manifest_DHSI.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://4f40b275-4cf4-43eb-996f-d4f534fdea7d",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b3035461-7f01-4f76-8fb6-3dd572f5c6c0",
+      "@type" : "sc:Canvas",
+      "label" : "British Columbia wild ginger (Asarum caudatum) illustration",
+      "height" : "2980",
+      "width" : "2273",
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://cad2957b-3546-4d2d-ba7b-e02f1b85da35",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://vault.library.uvic.ca/images/8f73dd99-b4e7-4bb7-ae1a-f77b83bbd2ac%2Ffiles%2F346a2a1b-b9d2-48ef-948a-1ec189e81a1d/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://vault.library.uvic.ca/images/8f73dd99-b4e7-4bb7-ae1a-f77b83bbd2ac%2Ffiles%2F346a2a1b-b9d2-48ef-948a-1ec189e81a1d",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg", "png" ]
+            } ]
+          },
+          "height" : 2980,
+          "width" : 2273
+        },
+        "on" : "http://b3035461-7f01-4f76-8fb6-3dd572f5c6c0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://caa3a82f-adf0-4659-981f-665d01f488a7",
+      "@type" : "sc:Canvas",
+      "label" : "Two Friends",
+      "height" : 8158,
+      "width" : 5392,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://712c93f8-b89f-41b7-9638-99f0cd280871",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/e58b8c60-005c-4c41-a22f-07d49cb25ede/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/e58b8c60-005c-4c41-a22f-07d49cb25ede",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "png", "webp" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 4000,
+              "maxHeight" : 4000
+            } ]
+          },
+          "height" : 8158,
+          "width" : 5392
+        },
+        "on" : "http://caa3a82f-adf0-4659-981f-665d01f488a7"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://e115b6fb-8726-4cfe-9001-1d8e1b925498",
+      "@type" : "sc:Canvas",
+      "label" : "Baseball",
+      "height" : 800,
+      "width" : 555,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://20c32912-436b-4d2d-b3b3-90442a3ccfd3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/image/iiif/3/5530700036_ce54cf64b6_o%2F5530700036_ce54cf64b6_o.jpg/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "@id" : "https://iiif.archive.org/image/iiif/3/5530700036_ce54cf64b6_o%2F5530700036_ce54cf64b6_o.jpg",
+            "profile" : "level2"
+          },
+          "height" : 800,
+          "width" : 555
+        },
+        "on" : "http://e115b6fb-8726-4cfe-9001-1d8e1b925498"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://9a9f0d40-914b-432e-8bfa-db4422315f43",
+      "@type" : "sc:Canvas",
+      "label" : "A Book",
+      "height" : 5412,
+      "width" : 7216,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b4351a0d-0b4f-45bb-99d6-253415c474c3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.irht.cnrs.fr/iiif/France/Ch%C3%A2teauroux/Bibliotheque_municipale/B360446201_MS0005/DEPOT/B360446201_MS0005_0008/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.irht.cnrs.fr/iiif/France/Ch%C3%A2teauroux/Bibliotheque_municipale/B360446201_MS0005/DEPOT/B360446201_MS0005_0008",
+            "profile" : [ "http://iiif.io/api/image/2/level1.json", {
+              "formats" : [ "jpg", "png", "webp" ],
+              "qualities" : [ "native", "color", "gray", "bitonal" ],
+              "supports" : [ "regionByPct", "regionSquare", "sizeByForcedWh", "sizeByWh", "sizeAboveFull", "sizeUpscaling", "rotationBy90s", "mirroring" ],
+              "maxWidth" : 8000,
+              "maxHeight" : 8000
+            } ]
+          },
+          "height" : 5412,
+          "width" : 7216
+        },
+        "on" : "http://9a9f0d40-914b-432e-8bfa-db4422315f43"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "https://example.org/range01",
+    "@type" : "sc:Range",
+    "label" : "Chapter 1",
+    "canvases" : [ "http://b3035461-7f01-4f76-8fb6-3dd572f5c6c0", "http://caa3a82f-adf0-4659-981f-665d01f488a7", "http://e115b6fb-8726-4cfe-9001-1d8e1b925498", "http://9a9f0d40-914b-432e-8bfa-db4422315f43" ]
+  } ]
+}
