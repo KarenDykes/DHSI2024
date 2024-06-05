@@ -2,7 +2,7 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://KarenDykes.github.io/DHSI2024/manifests/manifest_DHSI.json",
   "@type" : "sc:Manifest",
-  "label" : "[Click to edit label]",
+  "label" : "DHSI_2024",
   "metadata" : [ ],
   "description" : [ {
     "@value" : "[Click to edit description]",
